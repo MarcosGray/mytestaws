@@ -5,7 +5,7 @@ const port = process.env.SERVER_PORT || 4000
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send('Olá Marcos Gray e Carla Meira')
+    res.send('Olá Vitoriano, blza?')
 })
 
 app.listen(port, err => {
